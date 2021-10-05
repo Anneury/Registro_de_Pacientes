@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Registro de Pacientes</h1>
+    <p class="lead">Esta pagina web tiene la finalidad de registrar, modificar y eliminar, en este caso, pacientes.</p>
+    <br />
+    <br />
+    <br />
+    @Html.ActionLink("Ir al listado", "Index", "Pacientes", null, new { miAtributo = "Valor1", @class = "btn btn-primary" })
+</div>
+
